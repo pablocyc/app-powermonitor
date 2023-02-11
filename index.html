@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power Monitor</title>
+  
+  
+  <script type="module" crossorigin src="/app-powermonitor/index-7f153253.js"></script>
+  <link rel="stylesheet" href="/app-powermonitor/index-68bbd9b5.css">
+</head>
+<body>
+  <header-menu-bar></header-menu-bar>
+  <div class="line"></div>
+  <h1 class="title">Welcome back, Pablo</h1>
+  <p class="description">Track, manage and forecast your System Energy</p>
+  <main>
+    <range-date></range-date>
+    <div class="buttons-actions">
+      <select-date></select-date>
+      <add-parameters></add-parameters>
+    </div>
+    <div class="container-cards">
+      <card-parameter title="Voltage"></card-parameter>
+      <card-parameter title="Current"></card-parameter>
+      <card-parameter title="Power"></card-parameter>
+    </div>
+    <div class="container-charts"></div>
+  </main>
+</body>
+</html>
